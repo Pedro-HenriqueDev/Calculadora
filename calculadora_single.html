@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcule!</title>
+
+
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/calcula.js"></script>
+</head>
+<body>
+    <div id="calculadora">
+
+        <div class="box-calc">
+            <div id="input_style">
+                <input  type="text" disabled="disabled" id="input_calc">
+            </div>
+            <div>
+                <button onclick="calcular('sinal', 'c')" class="base">C</button>
+                <button onclick="calcular('sinal', '.')" class="base del1">.</button>
+                <button onclick="calcular('sinal', '+')" class="base">+</button>
+                <button onclick="calcular('sinal', '/')" class="base">/</button>
+            </div>
+            <div>
+                <button onclick="calcular('numero', '7')" class="base">7</button>
+                <button onclick="calcular('numero', '8')" class="base">8</button>
+                <button onclick="calcular('numero', '9')" class="base">9</button>
+                <button onclick="calcular('sinal', '-')"  class="base">-</button>
+            </div>
+            <div>
+                <button onclick="calcular('numero', '4')" class="base">4</button>
+                <button onclick="calcular('numero', '5')" class="base">5</button>
+                <button onclick="calcular('numero', '6')" class="base">6</button>
+                <button onclick="calcular('sinal', '*')"  class="base">*</button>
+            </div>
+            <div>
+                <button onclick="calcular('numero', '1')" class="base">1</button>
+                <button onclick="calcular('numero', '2')" class="base">2</button>
+                <button onclick="calcular('numero', '3')" class="base">3</button>
+                <button onclick="calcular('sinal', '=')"  class="base">=</button>
+            </div>
+        </div>
+
+        <div id="footer">
+            <p> By <a href="https://github.com/Pedro-HenriqueDev">Pedro Henrique</a> </p>
+        </div>
+
+    </div>
+    
+    
+</body>
+</html>
